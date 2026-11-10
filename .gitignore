@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+# downloaded prices and option snapshots are rebuilt locally; event calendars stay
+cache/*.parquet
+cache/*.csv
